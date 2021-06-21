@@ -4,6 +4,7 @@ body {
   background-size: cover; /* 더 넓은 넓이에 맞게 이미지가 출력 되도록 설정 */
   background-repeat: no-repeat;
   background-attachment: fixed; /* 스크롤 속성을 설정 즉, 배경 이미지가 고정 되도록 설정 */
+  @media(any-pointer: coarse)
 }
 
 .container {
